@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Emp-{DD}-{MM}-{#####}",
+ "creation": "2023-12-13 17:47:16.819486",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "emp_name",
+  "date_of_join",
+  "gender",
+  "column_break_yeyfv",
+  "qualification",
+  "role",
+  "salary",
+  "section_break_zynon",
+  "employees"
+ ],
+ "fields": [
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "label": "Emp Name"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "column_break_yeyfv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Link",
+   "label": "Role",
+   "options": "Role"
+  },
+  {
+   "fieldname": "date_of_join",
+   "fieldtype": "Date",
+   "label": "Date of Join"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Float",
+   "label": "Salary"
+  },
+  {
+   "fieldname": "section_break_zynon",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employees",
+   "fieldtype": "Table",
+   "label": "Employees",
+   "options": "Employee Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-13 17:53:36.296280",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Employee",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

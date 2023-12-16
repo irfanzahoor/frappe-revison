@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-11-15 23:40:33.135574",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-11-15 23:40:33.135574",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Patty Cash",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Patty cash",
+ "report_name": "Patty Cash",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

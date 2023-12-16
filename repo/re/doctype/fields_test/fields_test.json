@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-12 17:34:34.375225",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "autocopmlete",
+  "attach",
+  "attach__image",
+  "barcode",
+  "button",
+  "dynamic",
+  "section_section",
+  "check",
+  "code",
+  "color",
+  "column_break_column",
+  "currency",
+  "data",
+  "date",
+  "duration"
+ ],
+ "fields": [
+  {
+   "fieldname": "autocopmlete",
+   "fieldtype": "Autocomplete",
+   "label": "Autocopmlete"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach "
+  },
+  {
+   "fieldname": "attach__image",
+   "fieldtype": "Attach Image",
+   "label": "Attach  Image"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "Barcode"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button "
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "label": "Code "
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "column_break_column",
+   "fieldtype": "Column Break",
+   "label": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "dynamic",
+   "fieldtype": "Fold",
+   "label": "Dynamic"
+  },
+  {
+   "fieldname": "section_section",
+   "fieldtype": "Section Break",
+   "label": "Section "
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "Data "
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date "
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "Duration"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-12 19:02:10.565059",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Fields Test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

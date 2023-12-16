@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-13 17:52:47.920650",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "emp_name",
+  "date_of_join",
+  "gender",
+  "qualification",
+  "role",
+  "salary"
+ ],
+ "fields": [
+  {
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Emp Name"
+  },
+  {
+   "fieldname": "date_of_join",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date of Join"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Gender"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Role"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Salary"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-13 17:52:47.920650",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Employee Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

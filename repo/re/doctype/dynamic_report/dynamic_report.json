@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-11-18 00:00:20.454662",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document",
+  "user_name",
+  "id",
+  "role",
+  "shift",
+  "roler",
+  "namef"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "label": "Role"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Duration",
+   "label": "Shift"
+  },
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "User Name"
+  },
+  {
+   "fieldname": "roler",
+   "fieldtype": "Data",
+   "label": "Roler"
+  },
+  {
+   "fieldname": "namef",
+   "fieldtype": "Data",
+   "label": "Namef"
+  },
+  {
+   "fieldname": "document",
+   "fieldtype": "Link",
+   "label": "Document",
+   "options": "Dynamic report"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-22 00:53:22.488307",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Dynamic report",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

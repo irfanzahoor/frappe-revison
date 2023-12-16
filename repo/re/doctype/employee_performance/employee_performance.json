@@ -1,0 +1,196 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Employee-{#####}",
+ "creation": "2023-11-23 18:39:59.218092",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "department",
+  "reviewer",
+  "column_break_w0wzt",
+  "date",
+  "period_of_review",
+  "reviews_title",
+  "performance_evaluation_section",
+  "job_knowledge",
+  "productivity",
+  "work_quality",
+  "work_skills",
+  "technical_skills",
+  "work_consistency",
+  "cooperation",
+  "column_break_7llnc",
+  "attitude",
+  "work_relations",
+  "creativity",
+  "punctuality",
+  "attendance",
+  "dependance",
+  "communication_skills",
+  "overall_ratting"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "reviewer",
+   "fieldtype": "Data",
+   "label": "Reviewer"
+  },
+  {
+   "fieldname": "column_break_w0wzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "period_of_review",
+   "fieldtype": "Date",
+   "label": "Period Of Review"
+  },
+  {
+   "fieldname": "reviews_title",
+   "fieldtype": "Data",
+   "label": "Reviews Title"
+  },
+  {
+   "fieldname": "performance_evaluation_section",
+   "fieldtype": "Section Break",
+   "label": "Performance Evaluation"
+  },
+  {
+   "fieldname": "job_knowledge",
+   "fieldtype": "Select",
+   "label": "Job Knowledge",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "productivity",
+   "fieldtype": "Select",
+   "label": "Productivity",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "work_quality",
+   "fieldtype": "Select",
+   "label": "Work Quality",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "work_skills",
+   "fieldtype": "Select",
+   "label": "Work Skills",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "technical_skills",
+   "fieldtype": "Select",
+   "label": "Technical Skills",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "work_consistency",
+   "fieldtype": "Select",
+   "label": "Work Consistency",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "cooperation",
+   "fieldtype": "Select",
+   "label": "Cooperation",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "column_break_7llnc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attitude",
+   "fieldtype": "Select",
+   "label": "Attitude",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "work_relations",
+   "fieldtype": "Select",
+   "label": "Work Relations",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "creativity",
+   "fieldtype": "Select",
+   "label": "Creativity",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "punctuality",
+   "fieldtype": "Select",
+   "label": "Punctuality",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "attendance",
+   "fieldtype": "Select",
+   "label": "Attendance",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "dependance",
+   "fieldtype": "Select",
+   "label": "Dependance",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "communication_skills",
+   "fieldtype": "Select",
+   "label": "Communication Skills",
+   "options": "Excellent\nGood\nFair\nPoor"
+  },
+  {
+   "fieldname": "overall_ratting",
+   "fieldtype": "Select",
+   "label": "Overall Ratting",
+   "options": "Excellent\nGood\nFair\nPoor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-23 18:44:02.797120",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Employee Performance",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
