@@ -25,6 +25,8 @@ frappe.ui.form.on('Employee', {
 		frm.fields_dict['employees'].grid.refresh();
 
 		// Your existing code
+		// Make an asynchronous call to a server-side function
+
 	}
 });
 
