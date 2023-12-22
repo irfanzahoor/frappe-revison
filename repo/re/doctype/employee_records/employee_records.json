@@ -1,0 +1,150 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Emp-{#####}",
+ "creation": "2023-12-21 20:39:27.869256",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "section_break_lznmw",
+  "employee_name",
+  "employee_number",
+  "dob",
+  "gender",
+  "email",
+  "country",
+  "column_break_gaxzh",
+  "date_of_joining",
+  "designation",
+  "employee_role",
+  "employee_status",
+  "termination_date",
+  "basic_salary",
+  "section_break_xsilo",
+  "address"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "columns": 10,
+   "fieldname": "employee_id",
+   "fieldtype": "Link",
+   "label": "Employee Id",
+   "options": "Employee Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_lznmw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "employee_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Employee Number"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_gaxzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Joining"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "employee_role",
+   "fieldtype": "Link",
+   "label": "Employee Role ",
+   "options": "Role"
+  },
+  {
+   "fieldname": "employee_status",
+   "fieldtype": "Select",
+   "label": "Employee Status",
+   "options": "Active\nInactive\nOther"
+  },
+  {
+   "fieldname": "termination_date",
+   "fieldtype": "Date",
+   "label": "Termination Date"
+  },
+  {
+   "fieldname": "basic_salary",
+   "fieldtype": "Float",
+   "label": "Basic Salary"
+  },
+  {
+   "fieldname": "section_break_xsilo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Text",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-21 20:44:14.948457",
+ "modified_by": "Administrator",
+ "module": "Re",
+ "name": "Employee Records",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

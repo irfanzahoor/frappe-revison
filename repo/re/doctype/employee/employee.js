@@ -22,11 +22,13 @@ frappe.ui.form.on('Employee', {
 		// ... assign other fields as needed
 
 		// Refresh the child table to reflect the changes
+
 		frm.fields_dict['employees'].grid.refresh();
 
 		// Your existing code
 		// Make an asynchronous call to a server-side function
 
 	}
+	
 });
 
